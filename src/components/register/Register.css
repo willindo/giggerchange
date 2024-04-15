@@ -1,0 +1,29 @@
+form{
+    background-color: rgb(67, 67, 162);
+    width: 70vw;
+    height: 500px;
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 5%; */
+    color: rgb(10, 208, 86);
+    text-align: center;
+    align-items: center;
+}
+input {
+    width: 70%;
+    height: 30px;
+    place-self: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+button{
+    width: 100px;
+    padding: 1rem;
+    border-radius: 10%;
+    color: rgb(16, 120, 87);
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
